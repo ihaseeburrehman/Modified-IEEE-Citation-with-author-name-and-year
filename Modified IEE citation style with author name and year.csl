@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+  <info>
+    <title>Custom Style</title>
+    <id>http://www.zotero.org/styles/custom-style</id>
+    <category citation-format="author-date"/>
+    <category field="science"/>
+    <updated>2023-09-21T00:00:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <citation>
+    <layout>
+      <text variable="author-short" suffix=" "/>
+      <text variable="issued" form="date-parts" suffix=" "/>
+      <text variable="citation-number" prefix="[" suffix="]"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <text variable="author" suffix=". "/>
+      <text variable="title" suffix=". "/>
+      <text variable="container-title" suffix=". "/>
+      <text variable="volume" suffix=": "/>
+      <text variable="page" suffix=". "/>
+      <text variable="issued" form="date-parts" suffix=". "/>
+    </layout>
+  </bibliography>
+</style>
